@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    font-size: 15pt;
+    font-family: "Times New Roman";
+
+}
+
+
+#button {
+
+    padding:6px 15px;
+
+    border:2px solid #FC0;
+    background-color: #900;
+
+    color:#fafafa;
+}
+#button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+nav {
+    background-color: #900;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav #nav-wrapper {
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+nav #usc-logo {
+    background: transparent url('https://identity.usc.edu/files/2012/01/gateway-usc-shield-name.png') no-repeat;
+    background-position: 10px;
+    color: transparent;
+    display: block;
+    height: inherit;
+    width: 190px;
+}
+
+#home{
+
+    position: absolute;
+    top: 18px;
+    font-size:0.8em;
+    left: 400px;
+    height:27px;
+    width:200px;
+    float: left;
+    padding-left:14px;
+    padding-top:3px;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+
+    transition: color 1s linear;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+}
+#home a:hover{
+    color: #FC0;
+}
+
+
+#home2{
+
+    position: absolute;
+    top: 18px;
+    font-size:0.8em;
+    left: 600px;
+    height:27px;
+    width:200px;
+    float: left;
+    padding-left:14px;
+    padding-top:3px;
+}
+#home2 a{
+    color: white;
+    text-decoration: none;
+
+    transition: color 1s linear;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+}
+#home2 a:hover{
+    color: #FC0;
+}
+#login{
+    border-left:1px solid white;
+    position: absolute;
+    top: 18px;
+    font-size:0.8em;
+    right: 10px;
+    height:27px;
+    width:76px;
+    float: left;
+    padding-left:14px;
+    padding-top:3px;
+
+}
+#login a{
+    color: white;
+    text-decoration: none;
+
+    transition: color 1s linear;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+}
+#login a:hover{
+    color: #FC0;;
+}
+#signup{
+
+    font-size:0.8em;
+    position: absolute;
+    top: 18px;
+    right: 74px;
+    width:80px;
+    height:27px;
+    float: left;
+    margin-right:10px;
+    padding-left:10px;
+    padding-top:3px;
+}
+#signup a{
+    color: white;
+    text-decoration: none;
+
+    transition: color 1s linear;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+}
+
+#signup a:hover{
+    color: #FC0;;
+}
+header {
+    width: 100vw;
+    height: 50vh;
+
+    position: relative;
+
+    background: url('https://alumni.usc.edu/wp-content/uploads/2016/04/2015105_USC_Spring_2015_1529.jpg') no-repeat;
+
+    background-size:cover;
+    background-position: center;
+}
+
+header #header-img {
+    width: inherit;
+    height: inherit;
+}
+
+header #img-caption {
+    width: 450px;
+    margin: auto;
+    padding: 15px;
+    color: #FFF;
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    font-size: 20pt;
+    background-color: rgba(0,0,0, 0.6);
+
+}
+
+article {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    height:600px;
+
+}
+form{
+    width: 45%;
+
+    float: left;
+
+
+
+}
+content{
+    float: left;
+    width: 60%;
+    font-size:1em;
+    margin-left:90px;
+
+
+}
+
+#search{
+    font-size: 0.9em;
+    margin-top:20px;
+    padding-left:4px;
+    margin-left:20px;
+    width:20%;
+    margin-right:40px;
+    float: left;
+
+}
+
+
+#search2{
+    font-size: 0.9em;
+    margin-top:20px;
+    padding-left:4px;
+    margin-left:20px;
+    width:20%;
+    margin-right:40px;
+    float: left;
+
+}
+
+
+#signupform{
+    width:200px;
+
+    float: right;
+    margin-right:200px;
+}
+
+
+button a{
+    text-decoration: none;
+}
+
+button a:visited {
+    color: white;
+}
+button{
+    background-color: #900; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-family:"Times New Roman";
+    display: inline-block;
+    font-size: 16px;
+}
+
+#LoginRequest{
+    width:400px;
+    height:200px;
+    font-size:1.1em;
+    padding:20px;
+    font-weight:bold;
+    position: fixed;
+    z-index: 1;
+    color:white;
+    margin-left:40%;
+    background-color: #900;
+    display: none;
+    opacity:0.9;
+
+
+}
+
+
+
+#LoginRequest a{
+    color: #FC0;
+
+
+}
+
+
+#LoginRequestdetail{
+    width:400px;
+    height:200px;
+    font-size:1.1em;
+    
+
+    padding:20px;
+    font-weight:bold;
+    position: fixed;
+    z-index: 1;
+    color:white;
+    margin-left:30%;
+    background-color: #900;
+    display: none;
+
+
+}
+
